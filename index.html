@@ -3,47 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!--
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  -->
 </head>
 <body>
-  <fieldset>
-    <div id= "options">
-      <img src="/assets/logo.svg" alt="Logo">
-      <div id= "icons">
+  <div id= home>
+    <div class= 'main'>
+      <div class= 'content' id= 'options'> 
+        <img id= "logo"src="./assets/logo.svg" alt="Logo">
         <div>
-          <img src="/assets/icon-document.svg" alt="Archive">
-        </div>
-        <div>
-          <img src="/assets/icon-folder.svg" alt="Folder">
-        </div>
-        <div>
-          <img src="/assets/icon-upload.svg" alt="Upload">
+          <img class= "icon" src="./assets/icon-document.svg" alt="Arquivos">
+          <img class= "icon" src="./assets/icon-folder.svg" alt="Pastas">
+          <img class= "icon" src="./assets/icon-upload.svg" alt="Nuvem">
         </div>
       </div>
+      <div class= 'content' id= 'storage'>
+        <div style= "margin-left: 20px; margin-top: 10px;">
+          <p>
+            You’ve used <strong>815 GB</strong> of your storage
+          </p>
+          <input name= "range" type="range" min= "0" max="1000" step= "3.05">
+            <span name= "min-storage">0GB</span> <span name= "max-storage">1000GB</span>
+        </div>
+      </div>  
     </div>
-    <div id= "storage">
-      Used memory
+    <!--
+      185 GB Left
+            0 GB
+            1000 GB
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
     </div>
-  </fieldset>
-  <!--
-  You’ve used 815 GB of your storage
-  185 GB Left
-
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    -->
   </div>
-  -->
 </body>
 </html>

@@ -1,0 +1,67 @@
+:root {
+    --bg-color: hsl(229, 57%, 11%);
+    --bx-color: hsl(228, 56%, 26%);
+    --f-color: hsl(243, 100%, 93%);
+}
+html {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--f-color);
+}
+#home {
+    height: 100vh;
+    background-image: url('/assets/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -3vw bottom;
+    background-size: cover;
+}
+#home .main {
+    display: flex;
+    padding: 300px 228px 160px
+}
+#home .main .content {
+    display: flex;
+    background-color: var(--bx-color);
+    margin-right: 8px;
+    align-items: center;
+}
+#home .main #options.content img#logo {
+    margin: 15px;
+}
+#home .main #options.content {
+    flex-direction: column;
+    height: 172px;
+    width:325px;
+    border-radius: 8px 90px 8px 8px;
+    align-items: flex-start;
+}
+#home .main #options.content .icon {
+    background-color: var(--bg-color);
+    height: 21px;
+    width: 22px;
+    margin: 12px 0px 0px 13px;
+    padding: 12px;
+    border-radius: 8px;
+}
+#home .main #storage.content {
+    align-items: flex-start;
+    font-size: small;
+    margin-right: 0;
+    margin-top: 32px;
+    width: 525px;
+    border-radius: 8px;
+}
+#home .main #storage.content input[name] {
+    width: 200%;
+    cursor: e-resize;
+}
+span[min-storage] {
+    float:left;
+}
+span[max-storage] {
+    float: right;
+}
