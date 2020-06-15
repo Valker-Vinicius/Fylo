@@ -55,13 +55,26 @@ body {
     width: 525px;
     border-radius: 8px;
 }
-#home .main #storage.content input[name] {
-    width: 200%;
+#progress {
+    height: 31px;
+    width: 98%;
+    border-radius: 37px;
+    padding: 0px 4px;
+    background: var(--bg-color);
+}
+input[name= range] {
+    -webkit-appearance: none;
+    border-radius: 10px;
+    height: 22px;
+    width: 99%;
+    margin-top: 4px;
     cursor: e-resize;
+    outline: none;
 }
-span[min-storage] {
-    float:left;
-}
-span[max-storage] {
-    float: right;
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: red;
+    border-radius: 16px;
+    height: 20px;
+    width: 20px;
 }

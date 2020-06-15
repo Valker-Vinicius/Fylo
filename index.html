@@ -21,18 +21,20 @@
       <div class= 'content' id= 'options'> 
         <img id= "logo"src="./assets/logo.svg" alt="Logo">
         <div>
-          <img class= "icon" src="./assets/icon-document.svg" alt="Arquivos">
-          <img class= "icon" src="./assets/icon-folder.svg" alt="Pastas">
-          <img class= "icon" src="./assets/icon-upload.svg" alt="Nuvem">
+          <img class= "icon" src="./assets/icon-document.svg" alt="Documents">
+          <img class= "icon" src="./assets/icon-folder.svg" alt="Folder">
+          <img class= "icon" src="./assets/icon-upload.svg" alt="Cloud">
         </div>
       </div>
       <div class= 'content' id= 'storage'>
-        <div style= "margin-left: 20px; margin-top: 10px;">
+        <div style= "margin: 10px 20px; width: 100%">
           <p>
             You’ve used <strong>815 GB</strong> of your storage
           </p>
-          <input name= "range" type="range" min= "0" max="1000" step= "3.05">
-            <span name= "min-storage">0GB</span> <span name= "max-storage">1000GB</span>
+          <div id= "progress">
+            <input name= "range" type="range" min= "0" max="1000" step= "3.05">
+          </div>
+          <p style= "text-align-last: justify">0GB 1000GB</p>
         </div>
       </div>  
     </div>
