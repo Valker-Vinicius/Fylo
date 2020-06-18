@@ -3,6 +3,9 @@
     --bx-color: hsl(228, 56%, 26%);
     --f-color: hsl(243, 100%, 93%);
 }
+
+/*BODY AND BACKGROUND*/
+
 html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
@@ -19,6 +22,10 @@ body {
     background-position: -3vw bottom;
     background-size: cover;
 }
+
+
+/* BOX ONE */
+
 #home .main {
     display: flex;
     padding: 300px 228px 160px
@@ -47,26 +54,10 @@ body {
     padding: 12px;
     border-radius: 8px;
 }
-#popup {
-    height: 84px;
-    width: 260px;
-    border-radius: 10px;
-    background: white;
-    position: absolute;
-    margin-left: 240px;
-    margin-top: -125px;
-}
-#popup::after {
-    content: '';
-    height: 0;
-    width: 0;
-    position: absolute;
-    border-left: 41px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 29px solid white;
-    bottom: -18px;
-    left: 84.2%;
-}
+
+
+/* BOX TWO */
+
 #home .main #storage.content {
     align-items: flex-start;
     font-size: small;
@@ -85,7 +76,7 @@ body {
 input[name=range] {
     -webkit-appearance: none;
     height: 22px;
-    width: 99%;
+    width: 64%;
     margin-top: 4px;
     border-radius: 10px;
     background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
@@ -99,4 +90,37 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 16px;
     background: white;
     top: 2px;
+}
+
+/* POP UP */
+
+#popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    width: 260px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -125px;
+    color: black;
+}
+#popup::after {
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-left: 41px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 29px solid white;
+    bottom: -18px;
+    left: 84.2%;
+}
+h1 {
+    font-size: xxx-large;
+}
+h5 {
+    font-size: initial;
 }
