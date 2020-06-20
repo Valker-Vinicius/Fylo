@@ -16,20 +16,23 @@ body {
     color: var(--f-color);
 }
 #home {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url('/assets/bg-desktop.svg');
     background-repeat: no-repeat;
     background-position: -3vw bottom;
     background-size: cover;
+    position: fixed;
 }
-
+#home .main {
+    display: flex;
+    margin-top: 236px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* BOX ONE */
 
-#home .main {
-    display: flex;
-    padding: 300px 228px 160px
-}
 #home .main .content {
     display: flex;
     background-color: var(--bx-color);
@@ -41,8 +44,6 @@ body {
 }
 #home .main #options.content {
     flex-direction: column;
-    height: 172px;
-    width:325px;
     border-radius: 8px 90px 8px 8px;
     align-items: flex-start;
 }
@@ -62,8 +63,7 @@ body {
     align-items: flex-start;
     font-size: small;
     margin-right: 0;
-    margin-top: 32px;
-    width: 525px;
+    margin-top: 23px;
     border-radius: 8px;
 }
 #progress {

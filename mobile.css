@@ -1,0 +1,39 @@
+@media (max-width: 580px) {
+    #home {
+        background-image: url(/assets/bg-mobile.svg);
+        background-size: cover;
+        background-position-x: center;
+    }
+    #home .main {
+        display: block;
+        margin-left: 6%;
+        margin-top: 32%;
+    }
+    #options.content {
+        height: 170px;
+        width: 330px;
+    }
+    #storage.content {
+        margin-top: 13px;
+        width: 330px;
+        height: 200px;
+        margin-left: 0;
+    }
+    #popup::after {
+        display: none;
+    }
+    #popup {
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+}
+@media (min-width: 1000px) {
+    #home .main #options.content {
+        height: 172px;
+        width: 325px;
+    }
+    #home .main #storage.content {
+        width: 525px;
+    }
+}
+/*MUDE A DIV MÃE*/
