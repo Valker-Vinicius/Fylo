@@ -1,56 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <title>Frontend Mentor | Fylo data storage component</title>
-  <link rel="stylesheet" href="home.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
-  <link rel="stylesheet" href="mobile.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!--
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  -->
-</head>
-<body>
-  <div id= home>
-    <div class= 'main'>
-      <div class= 'content' id= 'options'> 
-        <img id= "logo"src="./assets/logo.svg" alt="Logo">
-        <div>
-          <img class= "icon" src="./assets/icon-document.svg" alt="Documents">
-          <img class= "icon" src="./assets/icon-folder.svg" alt="Folder">
-          <img class= "icon" src="./assets/icon-upload.svg" alt="Cloud">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <link rel="stylesheet" href="mobile.css">
+  </head>
+  <body>
+    <div id="home">
+      <div class='main'>
+        <div class='content' id='options'>
+          <img id="logo" src="./assets/logo.svg" alt="Logo">
+          <div>
+            <img class="icon" src="./assets/icon-document.svg" alt="Documents">
+            <img class="icon" src="./assets/icon-folder.svg" alt="Folder">
+            <img class="icon" src="./assets/icon-upload.svg" alt="Cloud">
+          </div>
+        </div>
+        <div class='content' id='storage'>
+          <div style="margin: 10px 20px; width: 100%">
+            <p>
+              You’ve used
+              <strong>
+                <span class="user-gb">0</span>GB</strong>
+              of your storage
+            </p>
+            <div id="popup">
+              <h1>
+                <span class="user-gb">1000</span></h1>
+              <h5>GB Left</h5>
+            </div>
+            <div id="progress">
+              <input id="range" name="range" type="range" min="0" max="1000" value="0" step="5">
+            </div>
+            <p style="text-align-last: justify">0GB 1000GB</p>
+          </div>
         </div>
       </div>
-      <div class= 'content' id= 'storage'>
-        <div style= "margin: 10px 20px; width: 100%">
-          <p>
-            You’ve used <strong><span class= "user-gb">0</span>GB</strong> of your storage
-          </p>
-          <div id="popup">
-            <h1><span class= "user-gb">1000</span></h1>
-            <h5>GB Left</h5>
-          </div>
-          <div id= "progress">
-            <input id= "range" name= "range" type="range" min= "0" max="1000" value= "0" step= "5">
-          </div>
-          <p style= "text-align-last: justify">0GB 1000GB</p>
-        </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="https://github.com/Valker-Vinicius">Valker Vinicius</a>.
       </div>
     </div>
-    <!--
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-    -->
-  </div>
-  <script src="src/jquery-3.5.1.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="src/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
