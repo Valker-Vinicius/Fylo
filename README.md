@@ -4,7 +4,7 @@
 ![Desktop Image](https://user-images.githubusercontent.com/65914461/86484979-e61c1700-bd2d-11ea-9d8b-8631e5a6a54a.png)
 
 ## 📱Responsive for smartphones and tablets🖥
-![Smartphone Image](https://user-images.githubusercontent.com/65914461/86484995-f0d6ac00-bd2d-11ea-9074-2fce51a99b66.png)
+![Repsonsive Images](https://user-images.githubusercontent.com/65914461/86493757-1e7d1e80-bd49-11ea-976d-53b8243a00a0.png)
 
 ## Dynamic values🔢
 ![Usage Gif](https://user-images.githubusercontent.com/65914461/86485666-b110c400-bd2f-11ea-8bf2-d4d71d205293.gif)
