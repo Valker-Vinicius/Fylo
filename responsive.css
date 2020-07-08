@@ -18,9 +18,50 @@
     }
 }
 
-/* SMARTPHONES AND TABLETS */
+/* TABLETS */
 
 @media (max-width: 899px) {
+    #home {
+         background-image: url(/assets/bg-mobile.svg);
+         background-size: cover;
+         background-position-x: center;
+     }
+     
+     #home .main {
+         flex-direction: column;
+         margin-left: 6%;
+         margin-top: 10%;
+     }
+     
+     #options.content {
+         height: 170px; 
+         width: 330px;
+     }
+     
+     #storage.content {
+         margin-top: 13px;
+         width: 330px;
+         height: 200px;
+         margin-left: 0;
+     }
+ 
+     #popup::after {
+         display: none;
+     }
+     
+     #popup {
+         margin-left: 20px;
+         margin-top: 80px;
+     }
+ 
+     .attribution {
+         margin-top: 10%;
+     }
+ }
+
+/* SMARTPHONES */
+
+@media (max-width: 590px) {
     #home {
         background-image: url(/assets/bg-mobile.svg);
         background-size: cover;
@@ -64,6 +105,3 @@
         }
     }
 }
-
-
-
