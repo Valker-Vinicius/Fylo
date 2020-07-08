@@ -1,12 +1,20 @@
 /* DESKTOP */
 
 @media (min-width: 900px) {
+    #home .main {
+        margin-top: 15%
+    }
     #home .main #options.content {
         height: 172px;
         width: 325px;
     }
+
     #home .main #storage.content {
         width: 525px;
+    }
+
+    .attribution {
+        margin-top: 17%;
     }
 }
 
@@ -18,27 +26,44 @@
         background-size: cover;
         background-position-x: center;
     }
+    
     #home .main {
         flex-direction: column;
         margin-left: 6%;
-        margin-top: 32%;
+        margin-top: 25%;
     }
+    
     #options.content {
-        height: 170px;
+        height: 170px; 
         width: 330px;
     }
+    
     #storage.content {
         margin-top: 13px;
         width: 330px;
         height: 200px;
         margin-left: 0;
     }
+
     #popup::after {
         display: none;
     }
+    
     #popup {
         margin-left: 20px;
         margin-top: 80px;
     }
+
+    .attribution {
+        margin-top: 10%;
+    }
+
+    @media (min-height: 650px) {
+        #home .main {
+            margin-top: 45%;
+        }
+    }
 }
+
+
 
