@@ -98,10 +98,12 @@
     .attribution {
         margin-top: 10%;
     }
-}
 
-@media (min-height: 650px) {
+    @media (min-height: 650px) {
         #home .main {
-            margin-top: 45%;
+            margin-top: 25%;
         }
     }
+}
+
+
